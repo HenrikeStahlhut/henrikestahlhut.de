@@ -44,11 +44,7 @@ li {
 
 /* @font-face {
   font-family: NewYork;
-  src: url('/fonts/NewYork.otf');
-}
-
-.NewYork {
-  font-family: NewYork;
+  src: local("NewYork"), url("./fonts/NewYork.otf") format("otf");
 } */
 
 `;

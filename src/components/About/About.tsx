@@ -5,11 +5,13 @@ const Container = styled.div`
   display: flex;
   width: 70%;
   flex-direction: column;
-  margin: auto;
+  margin: 50px auto;
 `;
 
 const AboutText = styled.p`
   color: white;
+  width: 50%;
+  margin-top: 30px;
 `;
 
 export default function About() {
