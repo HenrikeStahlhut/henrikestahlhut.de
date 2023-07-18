@@ -2,6 +2,7 @@ import Header from "@/components/Header/Header";
 import { styled } from "styled-components";
 import Image from "next/image";
 import About from "@/components/About/About";
+import ContactSection from "@/components/ContactSection/ContactSection";
 
 const Background = styled.div`
   z-index: -1000;

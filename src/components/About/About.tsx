@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import Title from "../Title/Title";
+import ContactSection from "../ContactSection/ContactSection";
 
 const Container = styled.div`
   display: flex;
@@ -24,6 +25,7 @@ export default function About() {
         can and expand my skillset. I love creative thinking and challenging
         myself.
       </AboutText>
+      <ContactSection />
     </Container>
   );
 }
