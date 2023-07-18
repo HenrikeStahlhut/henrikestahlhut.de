@@ -1,8 +1,7 @@
 import Header from "@/components/Header/Header";
-import Title from "@/components/Title/Title";
 import { styled } from "styled-components";
 import Image from "next/image";
-import Navigation from "@/components/Navigation/Navigation";
+import About from "@/components/About/About";
 
 const Background = styled.div`
   z-index: -1000;
@@ -23,7 +22,7 @@ export default function Home() {
         />
       </Background>
       <Header />
-      <Title />
+      <About />
     </>
   );
 }
