@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 import Image from "next/image";
 import About from "@/components/About/About";
 import ContactSection from "@/components/ContactSection/ContactSection";
+import Footer from "@/components/Footer/Footer";
 
 const Background = styled.div`
   z-index: -1000;
@@ -24,6 +25,7 @@ export default function Home() {
       </Background>
       <Header />
       <About />
+      <Footer />
     </>
   );
 }

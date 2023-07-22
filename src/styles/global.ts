@@ -42,6 +42,11 @@ li {
   list-style-type: none;
 }
 
+a{
+  color: black;
+  text-decoration: none;
+}
+
 /* @font-face {
   font-family: NewYork;
   src: local("NewYork"), url("./fonts/NewYork.otf") format("otf");
