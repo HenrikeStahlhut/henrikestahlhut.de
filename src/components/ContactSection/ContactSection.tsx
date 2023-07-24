@@ -7,6 +7,12 @@ const Container = styled.div`
   width: 25%;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 1000px) {
+    a {
+      margin: 0px 10px;
+    }
+  }
 `;
 
 // TODO: mailto on mail button

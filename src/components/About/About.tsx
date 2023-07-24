@@ -11,9 +11,11 @@ const Container = styled.div`
 
 const AboutText = styled.p`
   color: white;
-  width: 50%;
+  /* width: 50%; */
   margin-top: 30px;
 `;
+
+// TODO: rename to intrudction/main element?
 
 export default function About() {
   return (
