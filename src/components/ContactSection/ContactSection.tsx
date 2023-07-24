@@ -26,7 +26,7 @@ export default function ContactSection() {
       <a href="https://www.linkedin.com/in/henrike-stahlhut/">
         <BsLinkedin size={30} color="white" />
       </a>
-      <a>
+      <a href="mailto:hey@henrikestahlhut.de">
         <FiMail size={30} color="white" />
       </a>
     </Container>
