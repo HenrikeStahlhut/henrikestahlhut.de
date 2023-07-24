@@ -61,6 +61,27 @@ const StyledContainer = styled.div`
     width: 100%;
     backdrop-filter: blur(100px);
   }
+
+  @media (max-width: 600px) {
+    @keyframes gradient {
+      30% {
+        transform: scale(1.1) translate(70px);
+      }
+    }
+    .child-1 {
+      width: 150%;
+      left: -30%;
+    }
+
+    .child-3 {
+      width: 100%;
+    }
+
+    .child-4 {
+      width: 100%;
+      left: -30%;
+    }
+  }
 `;
 
 export default function Background() {
