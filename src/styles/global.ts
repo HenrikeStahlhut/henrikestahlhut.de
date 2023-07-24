@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import Link from "next/link";
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -16,6 +15,11 @@ export const GlobalStyle = createGlobalStyle`
   --background-violet: #C599D1;
   --background-pink: #E7B7C8;
   --background-orange: #FFBE88;  
+  --highlight-color: #ADD8E6;
+}
+
+::selection{
+  background: var(--highlight-color);
 }
 
   *,
@@ -52,10 +56,6 @@ dd {
   font-family: inherit;
   padding: 0;
   cursor: pointer;
-}
-
-h1{
-  font-family: 'NewYork';
 }
 
 li {

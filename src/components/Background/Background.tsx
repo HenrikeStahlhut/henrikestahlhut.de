@@ -22,9 +22,9 @@ const StyledContainer = styled.div`
 
   .child-1 {
     height: 90%;
-    width: 80%;
+    width: 100%;
     background-color: var(--background-blue);
-    left: -20%;
+    left: -30%;
     top: -10%;
   }
 

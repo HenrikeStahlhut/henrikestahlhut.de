@@ -5,10 +5,6 @@ export const LayoutContainer = styled.div`
   display: flex;
   flex-direction: row;
 
-  /* .footerContainer {
-    width: 60%;
-  } */
-
   .space-left {
     width: 20%;
   }
@@ -48,13 +44,6 @@ export default function Layout({ children }: LayoutProps) {
         <div className="container">{children}</div>
         <div className="space-right"> </div>
       </LayoutContainer>
-      {/* <LayoutContainer>
-        <div className="space-left"> </div>
-        <div className="footerContainer">
-          <Footer />
-        </div>
-        <div className="space-right"> </div>
-      </LayoutContainer> */}
     </>
   );
 }
