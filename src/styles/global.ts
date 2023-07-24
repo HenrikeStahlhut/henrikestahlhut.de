@@ -1,6 +1,15 @@
 import { createGlobalStyle } from "styled-components";
+import Link from "next/link";
 
 export const GlobalStyle = createGlobalStyle`
+
+@font-face {
+    font-family: 'NewYork';
+    src: url('./fonts/NewYork.woff2') format('woff2'),
+        url('./fonts/NewYork.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root{
   --background-blue: #63BCC9;
@@ -45,6 +54,10 @@ dd {
   cursor: pointer;
 }
 
+h1{
+  font-family: 'NewYork';
+}
+
 li {
   list-style-type: none;
 }
@@ -54,9 +67,6 @@ a{
   text-decoration: none;
 }
 
-/* @font-face {
-  font-family: NewYork;
-  src: local("NewYork"), url("./fonts/NewYork.otf") format("otf");
-} */
+
 
 `;
