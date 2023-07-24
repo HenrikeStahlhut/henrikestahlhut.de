@@ -17,7 +17,7 @@ const Container = styled.div`
 
 // TODO: mailto on mail button
 
-export default function ContactSection() {
+export default function ContactIcons() {
   return (
     <Container>
       <a href="https://github.com/HenrikeStahlhut">
