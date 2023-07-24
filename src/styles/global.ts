@@ -2,6 +2,13 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
+:root{
+  --background-blue: #63BCC9;
+  --background-violet: #C599D1;
+  --background-pink: #E7B7C8;
+  --background-orange: #FFBE88;  
+}
+
   *,
   *::before,
   *::after {

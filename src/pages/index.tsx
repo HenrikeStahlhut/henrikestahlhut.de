@@ -1,30 +1,20 @@
 import Header from "@/components/Header/Header";
-import { styled } from "styled-components";
-import Image from "next/image";
 import About from "@/components/About/About";
-import ContactSection from "@/components/ContactSection/ContactSection";
 import Footer from "@/components/Footer/Footer";
+import Background from "@/components/Background/Background";
+import Layout from "@/components/Layout/Layout";
 
-const Background = styled.div`
-  z-index: -1000;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-`;
+// TODO: Highlight color when highlighting text
 
 export default function Home() {
   return (
     <>
-      <Background>
-        <Image
-          src={"/img/background.jpg"}
-          alt="colorful background"
-          layout="fill"
-          objectFit="cover"
-        />
-      </Background>
-      <Header />
-      <About />
+      <Background />
+
+      <Layout>
+        <Header />
+        <About />
+      </Layout>
       <Footer />
     </>
   );
