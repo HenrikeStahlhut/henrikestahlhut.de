@@ -15,8 +15,6 @@ const Container = styled.div`
   }
 `;
 
-// TODO: mailto on mail button
-
 export default function ContactIcons() {
   return (
     <Container>

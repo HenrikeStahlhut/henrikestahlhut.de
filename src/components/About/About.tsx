@@ -26,13 +26,15 @@ export default function About() {
       <Title />
       <StyledText>
         {/* I&apos;m a frontend developer and media designer from Germany. Since
-        I&apos;m new in the coding world, I&apos;m eager to learn as much as I
+        I&apos;m new to the coding world, I&apos;m eager to learn as much as I
         can and expand my skillset. I love creative thinking and challenging
         myself. */}
-        Pellentesque vitae dui velit. In nec pellentesque libero. Proin volutpat
-        ex sit amet purus mollis, vel aliquet justo molestie. Mauris lacinia est
-        urna, ut porta sapien imperdiet ut. Maecenas posuere interdum nibh, at
-        laoreet orci dignissim in.
+        I&apos;m a media designer and frontend developer from Germany who is
+        currently living in Amsterdam. My love for both design and coding has
+        equipped me with a strong understanding and passion in both fields.
+        Since I&apos;m new to the coding world, I&apos;m eager to learn as much
+        as I can and expand my skillset. I love creative thinking and
+        challenging myself
       </StyledText>
       <ContactIcons />
     </Container>

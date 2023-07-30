@@ -6,8 +6,8 @@ export default function ContactInfo() {
     <Container>
       <Subheadline>Contact me</Subheadline>
       <StyledText>
-        Feel freee to contact me via e-mail hey@henrikestahlhut.de or reach out
-        to me on
+        Feel freee to contact me via e-mail at hey@henrikestahlhut.de or reach
+        out to me on
         <a href="https://www.linkedin.com/in/henrike-stahlhut/"> LinkedIn</a>
       </StyledText>
     </Container>
