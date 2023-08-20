@@ -1,19 +1,19 @@
 import Header from "@/components/Header/Header";
-import About from "@/components/About/About";
 import Footer from "@/components/Footer/Footer";
 import Background from "@/components/Background/Background";
 import Layout from "@/components/Layout/Layout";
+import Subheadline from "@/components/Subheadline/Subheadline";
+import { Container, StyledText } from "@/components/About/About";
 
-// TODO: Highlight color when highlighting text
-
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <Background />
-
       <Layout>
         <Header />
-        <About />
+        <Container>
+          <Subheadline>This page is under construction...</Subheadline>
+        </Container>
       </Layout>
       <Footer />
     </>
