@@ -25,10 +25,6 @@ export default function About() {
     <Container>
       <Title />
       <StyledText>
-        {/* I&apos;m a frontend developer and media designer from Germany. Since
-        I&apos;m new to the coding world, I&apos;m eager to learn as much as I
-        can and expand my skillset. I love creative thinking and challenging
-        myself. */}
         I&apos;m a media designer and frontend developer from Germany who is
         currently living in Amsterdam. My love for both design and coding has
         equipped me with a strong understanding and passion in both fields.
