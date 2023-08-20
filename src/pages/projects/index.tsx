@@ -4,9 +4,10 @@ import Background from "@/components/Background/Background";
 import Layout from "@/components/Layout/Layout";
 import Subheadline from "@/components/Subheadline/Subheadline";
 import { styled } from "styled-components";
+import { Container, StyledText } from "@/components/About/About";
 
 const StyledMarginContainer = styled.div`
-  margin: 50px;
+  margin: 50px auto;
 `;
 
 export default function Projects() {
@@ -16,9 +17,9 @@ export default function Projects() {
 
       <Layout>
         <Header />
-        <StyledMarginContainer>
+        <Container>
           <Subheadline>This page is under construction...</Subheadline>
-        </StyledMarginContainer>
+        </Container>
       </Layout>
       <Footer />
     </>
